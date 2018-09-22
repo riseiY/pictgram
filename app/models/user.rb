@@ -11,4 +11,6 @@ class User < ApplicationRecord
   validates :name, length:{in: 0..15}
 
   has_secure_password
+
+  has_many :topics 
 end

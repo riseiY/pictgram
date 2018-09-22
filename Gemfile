@@ -39,6 +39,9 @@ gem 'bootstrap-sass'
 gem "jquery-rails"
 gem 'bcrypt'
 
+#この行追加2018/09/21
+gem "carrierwave"
+
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
 
